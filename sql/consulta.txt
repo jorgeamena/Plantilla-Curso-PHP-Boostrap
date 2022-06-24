@@ -1,0 +1,1 @@
+SELECT a.id, a.autor_id, a.url, a.titulo, a.texto, a.fecha, a.activa, COUNT(b.id) AS cantidad_comentarios FROM entradas a, comentarios b WHERE a.id = b.entrada_id AND a.autor_id = 0

@@ -1,0 +1,211 @@
+body {
+    background-image: url('../img/010.jpg');
+}
+
+.jumbotron {
+    background-color: deepskyblue;
+    color: #FFFFFF
+}
+
+.panel-heading {
+    background-color: deepskyblue !important;
+    color: white !important;
+}
+
+.panel-body {
+    color: #2b2b2b !important;
+}
+
+.navbar {
+    background-color: #2d2d2d !important;
+    border: none !important;
+}
+
+.navbar-brand:link, .navbar-brand:visited {
+    color: deepskyblue !important;
+}
+
+.navbar-brand:hover, .navbar-brand:active {
+    color: royalblue !important;
+}
+
+#navbar li a:link, #navbar li a:visited {
+     color: deepskyblue !important;
+}
+
+#navbar li a:hover, #navbar li a:active {
+    color: royalblue !important;
+}
+
+.dropdown-menu {
+    background-color: #2d2d2d;
+    color: deepskyblue;
+}
+
+.open > a {
+    background-color: #2d2d2d !important;
+}
+
+.btn-primary, #label_archivo {
+    border-radius: 3px;
+    border-collapse: separate;
+    border: 1px solid royalblue;
+    box-shadow: black 0px 3px 5px;
+    background-color: deepskyblue !important;
+    color: #FFFFFF !important;
+}
+
+.btn-primary:hover, #label_archivo:hover {
+    border-radius: 3px;
+    border-collapse: separate;
+    border: 1px solid white;
+    box-shadow: pink 0px 3px 5px;
+    background-color: #2d2d2d !important;
+    color: deepskyblue !important;
+}
+
+.contenido-articulo, .perfil{
+    background-color: #E0E0E0;
+    padding: 2em;
+}
+
+.sidebar {
+    background-color: white !important;
+}
+
+.sidebar,  .gg-elemento {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.gg-elemento:hover {
+    background-color: #2d2d2d !important;
+    color: deepskyblue !important;
+}
+
+.gg-elemento {
+    color: white;
+}
+
+#Id_Gg_Entradas {
+    background-color: deepskyblue;
+    padding-bottom: 1em;
+}
+
+#Id_Gg_Comentarios {
+    background-color: #029ac4;
+    padding-bottom: 1em;
+}
+
+#Id_Gg_Favoritos {
+    background-color: #394a66;
+    padding-bottom: 1em;
+}
+
+.partes-gestor-entradas {
+    background-color: deepskyblue;
+    color: white;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th {
+    background-color:skyblue !important;
+    color: black !important;
+    font-size: 12pt;
+}
+
+.table-striped>tbody>tr:nth-child(even)>td, .table-striped>tbody>tr:nth-child(even)>th {
+    background-color: paleturquoise !important;
+    color: black !important;
+    font-size: 12pt;
+}
+
+.table-striped>tbody>tr>td {
+    border: none;
+}
+
+.table>thead>tr>th {
+    border: none !important; 
+    font-size: 15pt;
+}
+
+tbody:before {
+    content: "-";
+    display:block;
+    line-height: 1em;
+    color: transparent;
+}
+
+.form_nueva_entrada {
+    background-color: white;
+    padding: 2em;
+}
+
+#GE_BTN>ul>li>a {
+    color: deepskyblue !important;
+}
+
+#GE_BTN>ul>li>a:hover {
+    background-color: deepskyblue !important;
+    color: #2d2d2d !important;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+#Id_GE_BTN>ul>li>a {
+    padding: 4px 10px 4px 10px;
+}
+
+#Id_GE_BTN>ul {
+    min-width: 50px !important;
+    
+}
+
+i {
+    color: deepskyblue !important;
+}
+
+.panel-heading i, .btn>i, .gg-elemento i, .partes-gestor-entradas i {
+    color: white !important;
+}
+
+#resultados {
+    background-color: whitesmoke;
+    opacity: 5;
+    border-radius: 3px;
+}
+
+.boton_subir {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+#label_archivo {
+    border-radius: 3px;
+    border-collapse: separate;
+    border: 1px solid royalblue;
+    box-shadow: black 0px 3px 5px;
+    background-color: deepskyblue !important;
+    color: #FFFFFF !important;
+    padding: 0.5em;
+    cursor: pointer;
+    width: 100%;
+}
+
+#label_archivo:hover {
+    border-radius: 3px;
+    border-collapse: separate;
+    border: 1px solid white;
+    box-shadow: pink 0px 3px 5px;
+    background-color: #2d2d2d !important;
+    color: deepskyblue !important;
+}
+
+.img-responsive {
+    border-radius: 3px;
+}
