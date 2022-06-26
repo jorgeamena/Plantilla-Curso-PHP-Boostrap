@@ -22,7 +22,7 @@ $partes_ruta = array_slice($partes_ruta, 0);
 
 $ruta_elegida = 'Vistas/404.php';
 
-if ($partes_ruta[0] == 'Aprender_Jorge') {
+if ($partes_ruta[0] == 'Plantilla-Curso-PHP-Boostrap') {
     if (count($partes_ruta) == 1) {
         $ruta_elegida = 'Vistas/home.php';
     } else if (count($partes_ruta) == 2) {
@@ -161,7 +161,7 @@ include_once $ruta_elegida;
     include_once 'Vistas/registro.php';
 } else if ($partes_ruta[2] == 'login') {
     include_once 'Vistas/login.php';
-} else if ($partes_ruta[1] == 'Aprender_Jorge') {
+} else if ($partes_ruta[1] == 'Plantilla-Curso-PHP-Boostrap') {
     include_once 'Vistas/home.php';
 } else {
     echo '404';

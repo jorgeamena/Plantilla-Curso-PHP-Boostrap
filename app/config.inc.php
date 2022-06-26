@@ -7,7 +7,7 @@ define('PASSWORD', '');
 define('NOMBRE_BD','aprender');
 
 //rutas de la web
-define("SERVIDOR", "http://localhost/Aprender_Jorge");
+define("SERVIDOR", "http://localhost/Plantilla-Curso-PHP-Boostrap");
 define("RUTA_REGISTRO", SERVIDOR."/registro");
 define("RUTA_REGISTRO_CORRECTO", SERVIDOR."/registro_correcto");
 define("RUTA_LOGIN", SERVIDOR."/login");
